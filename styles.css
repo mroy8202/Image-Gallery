@@ -89,10 +89,18 @@
     .card {
         width: 49%;
     }
+
+    .card figcaption {
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 700px) {
     .card {
         width: 100%;
+    }
+
+    .card figcaption {
+        font-size: 10px;
     }
 }
